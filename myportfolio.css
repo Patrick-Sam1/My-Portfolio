@@ -1,0 +1,385 @@
+.navbar {
+    background-color: purple;
+    color: #fff;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center; 
+}
+.navbar-logo img {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+    border-color: white;
+    background-color: #fff;
+    clip-path: circle(45%);
+}
+.logo-name{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',;
+}
+.navbar-link a{
+color: #fff;
+text-decoration: none;
+margin-left: 35px;
+font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px) {.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navbar-logo {
+    margin-bottom: 10px;
+}
+    
+.logo-name{
+    margin: 5px o;
+}
+.navbar-link{
+    display: flex;
+flex-direction: column;
+}
+
+.navbar link a {
+    margin: 5px 0;
+}
+
+}
+
+
+
+
+.aboutme {
+background-color: rgb(207, 210, 210);
+width: 100%;
+height: 160px ;
+margin-bottom: 50px;
+border-radius: 10px;
+box-sizing: border-box;
+box-shadow: 0px 0px 4px rgb(30, 29, 29);
+}
+
+
+aside img {
+    float: left;
+    width: 15%;
+    height: 150px;
+    padding: 5px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 20px;
+}
+
+.card1 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+}
+.card1 img {
+    width: 35px;
+    padding-top: 15px;
+}
+
+
+.card2 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+}
+.card2 img {
+    width: 35px;
+    padding-top: 15px;
+}
+
+
+
+.card3 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+}
+
+.card3 img {
+    width: 30px;
+    padding-top: 0px;
+}
+
+
+
+
+
+.card4 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+}
+
+
+.card4 img {
+    width: 35px;
+    padding-top: 5px;
+}
+
+
+h4 {
+    color: rgb(84, 3, 84);
+}
+
+
+h2 {
+    color: rgb(84, 3, 84);
+    margin-bottom: 20px;
+}
+
+
+.card5 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+}
+.card5 img {
+    width: 35px;
+    padding-top: 10px;
+}
+
+
+
+
+.card6 {
+    text-align: center;
+    font-weight: bolder;
+    width: 18%;
+    height: 120px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    line-height: 0.5px;
+    margin-bottom: 100px;
+}
+
+.card6 img {
+    width: 35px;
+    padding-top: 5px;
+}
+
+.project{
+    margin-top: 20px;
+    float: left;
+    font-family: Arial;
+    padding-left: 40px;
+    margin-bottom: 100px;
+}
+
+.project h2 {
+    color: rgb(122, 3, 122);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.recom-container{
+float: left;
+width: 100%;
+
+}
+
+h5 {
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(160, 3, 160);
+    line-height: 1px;
+}
+
+.recommendation1 {
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+    height: 165px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    padding-left: 1px;
+}
+
+
+
+.recommendation2 {
+    text-align: center;
+    font-weight: bolder;
+    width: 30%;
+    height: 165px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+
+
+
+.recommendation3 {
+    text-align: center;
+    font-weight: bolder;
+    width: 30%;
+    height: 165px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+
+.recommendation4 {
+    text-align: center;
+    font-weight: bolder;
+    width: 30%;
+    height: 165px;
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+
+
+.recommendation5 {
+    text-align: center;
+    font-weight: bolder;
+    width: 30%;
+    height: 165px;
+    background-color:rgb(243, 174, 232);
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+
+
+
+
+h6 {
+    float: left;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    float: left;
+    width: 70%;
+    max-width: 550px;
+    margin: 50px auto;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+form{
+padding: 20px;
+/* border-top: 1px solid #ddd; */
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); */
+}
+
+input[type="submit"]{
+    border: 1px solid rgb(123, 122, 122);
+    background-color: rgb(53, 52, 52);
+    color: white;
+    width: 25%;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(20, 19, 19);
+    color: white;
+    border: 2px solid rgb(79, 78, 78);
+}
+p {
+    text-align: center;
+}
+p a{text-decoration: none;
+padding: 3px;
+margin: 0px;
+color: black;
+}
+
+textarea {
+    width: 98%;
+}
